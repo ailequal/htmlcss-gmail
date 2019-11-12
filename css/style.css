@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  /* background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-6.jpg); */
+  background-image: url(https://wallpaper-gallery.net/images/brown-wood-wallpaper/brown-wood-wallpaper-4.jpg);
+  background-repeat: no-repeat;
+  font-family: 'PT Sans', sans-serif;
+  background-size: cover;
+  background-repeat: space repeat;
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.title-header {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 8px;
+}
+
+.title-header img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.title-header h1 {
+  display: inline;
+}
+
+.search-bar {
+  margin-bottom: 8px;
+}
+
+#go-button {
+    border-radius: 2px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+.emails span {
+  display: inline-block;
+  background-color: rgb(255, 154, 39);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.emails-list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 8px;
+}
+
+.emails-list ul {
+  background-color: rgb(205, 205, 205);
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.emails-list li {
+  border: 1.5px solid rgb(0, 0, 0);
+}
+
+.emails-list p {
+  display: inline;
+  color: rgb(117, 117, 117);
+}
+
+.emails-list strong {
+  color: rgb(0, 0, 0);
+}
+
+.title-footer h4 {
+    text-align: center;
+}
+
+.title-footer span {
+  font-size: 12px;
+  font-style: italic;
+}
